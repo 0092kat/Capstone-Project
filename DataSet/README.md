@@ -1,17 +1,17 @@
 # The Data Set
 The Datset was download from kaggle, and it is publicly available and has no use restriction.
 
-###### Acknowledgements for Dataset.
+## Acknowledgements for Dataset.
 
-Navoneel Chakrabarty
-Swati Kanchan
+1. Navoneel Chakrabarty
+2. Swati Kanchan
 
-###### Team
+## Team
 
-Sartaj Bhuvaji
-Ankita Kadam
-Prajakta Bhumkar
-Sameer Dedge
+3. Sartaj Bhuvaji
+4. Ankita Kadam
+5. Prajakta Bhumkar
+6. Sameer Dedge
 
 
 Download the dataset from [Kaggle](https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri).
