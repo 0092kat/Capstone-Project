@@ -43,7 +43,7 @@ The data was downloaded from kaggle, Read the [README file](Documents/README.md)
 
 _A Glimpse of the data_
 
-[Picure of the DATASET]
+![DataSet](/README-images/DataSet.png)
 
 _Pre-Processing of the data_
 
@@ -51,6 +51,7 @@ The images where transformed inthr following manner
 
 | **Transformation**               |   **OutPut**                                  |
 | -------------------------------- |  -------------------------------------------- |
+| Original Image                   |   OutPut                                      |
 | horizontal flipping              |   OutPut                                      |
 | vertical flipping                |   OutPut                                      |
 | zooming at 0.2                   |   OutPut                                      |
