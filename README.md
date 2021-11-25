@@ -65,6 +65,16 @@ The images where transformed inthr following manner
 
 **2. Model Development and Fine-tuning**
 
+![FineTuning](/README-images/efn_bNe.png)       ![FineTuning](/README-images/vgg_bNe.png)
+
+![FineTuning](/README-images/efn_drop.png)
+
+![FineTuning](/README-images/vgg_drop.png)
+
+![FineTuning](/README-images/efn_opt.png)
+
+![FineTuning](/README-images/vgg_opt.png)
+
 The Efficientnet model development and fine tuning
 
 in this notebook we will load and add our layers to the base model of the pre-trained EfficientnetB7 model, and fine tune the following parameters of the model:
@@ -78,6 +88,7 @@ in this notebook we will load and add our layers to the base model of the pre-tr
 
 **3. Final Model Implementation and Results**
 
+![Model](/README-images/ModelEFN.png)
 
 ## Acknowledgements
 
