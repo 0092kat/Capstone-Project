@@ -49,18 +49,18 @@ _Pre-Processing of the data_
 
 The images where transformed inthr following manner
 
-| **Transformation**               |   **OutPut**                                  |
-| -------------------------------- |  -------------------------------------------- |
-| Original Image                   |   OutPut                                      |
-| horizontal flipping              |   OutPut                                      |
-| vertical flipping                |   OutPut                                      |
-| zooming at 0.2                   |   OutPut                                      |
-| rotation at 20 degrees           |   OutPut                                      |
-| featurewise_std_normalization    |   OutPut                                      |
-| shear-range of 0.2               |   OutPut                                      |
-| brightening at the range 0.2-1.5 |   OutPut                                      |
-| width shift range of 0.1         |   OutPut                                      |
-| height shift range of 0.1        |   OutPut                                      |
+| **Transformation**               |   **OutPut**                                     |
+| -------------------------------- |  ----------------------------------------------- |
+| Original Image                   | ![Transformation](/README-images/original.png)   |
+| horizontal flipping              | ![Transformation](/README-images/horizontal.png) |
+| vertical flipping                | ![Transformation](/README-images/vertical.png)   |
+| zooming at 0.2                   | ![Transformation](/README-images/zoom.png)       |
+| rotation at 20 degrees           | ![Transformation](/README-images/rotation.png)   |
+| featurewise_std_normalization    | ![Transformation](/README-images/featurewise.png)|
+| shear-range of 0.2               | ![Transformation](/README-images/shear.png)      |
+| brightening at the range 0.2-1.5 | ![Transformation](/README-images/brightness.png) |
+| width shift range of 0.1         | ![Transformation](/README-images/width.png)      |
+| height shift range of 0.1        | ![Transformation](/README-images/height.png)     |
 
 
 **2. Model Development and Fine-tuning**
