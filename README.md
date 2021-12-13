@@ -69,13 +69,13 @@ The following parameters namely: Batch size, Epochs, Dropout and Optimizer, of t
 
 The following values and parameters where chosen:
 
-- **_Optimizers_** - We will use only 5 optimizers to see which one works best, namely; 1. SGD,2. RMSprop,3. Adam,4. Adagrad,5. Adadelta. the best optimizer will be used in the New model
+- **_Optimizers_** - We will use only 5 optimizers to see which one works best, namely; `1. SGD,2. RMSprop,3. Adam,4. Adagrad,5. Adadelta.` the best optimizer will be used in the New model
 
-- **_Number of epochs_** - We will also use only 4 epochs to choose the best performer namely; 1, 2, 5, 10.
+- **_Number of epochs_** - We will also use only 4 epochs to choose the best performer namely; `1, 2, 5, 10.`
 
-- **_Batch size_** - we will also use these batch sizes to choose the optimum batch size, namely; 8, 16.
+- **_Batch size_** - we will also use these batch sizes to choose the optimum batch size, namely; `8, 16.`
 
-- **_Dropout_** - we will optimise the dropout of the model, values 0.5, 0.6, 0.7, 0.8, 0.9
+- **_Dropout_** - we will optimise the dropout of the model, values `0.5, 0.6, 0.7, 0.8, 0.9`
 
 #### EfficientNetB7 - Batch size and Epochs
 
