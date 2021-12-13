@@ -7,6 +7,12 @@ This project was designed by Katlego Reuben KGOSI, and Mishi MAKADE, as our end 
 ###### _Keywords_
 > `EfficientNetB7`, `VGG16`, `classification`,  `segmentation`, `transfer learning`, `pre-trained model`
 
+
+**AUTHORS**
+
+1. Katlego KGOSI, Sol Plaatje University, South Africa
+2. Mishi MAKADE, Sol Plaatje University, South Africa
+
 ## Overview
 
 | **Table of Content**              | 
