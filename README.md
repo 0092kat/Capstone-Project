@@ -104,7 +104,7 @@ The following values and parameters where chosen:
 
 #### VGG16 - Optimizer
 
-![FineTuning](/README-images/vgg_opt.png)
+![FineTuning](/README-images/Screenshot_20211213-111155_Chrome.jpg)
 
 
 
