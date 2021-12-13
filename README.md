@@ -39,7 +39,7 @@ Requirements
 
 **1. Data Collection & Pre-Processing**
 
-The data was downloaded from kaggle, Read the [README file](Documents/README.md) to get the link for the dataset.
+The data was downloaded from kaggle, Read the [README file](DataSet/README.md) to get the link for the dataset.
 
 _A Glimpse of the data_
 
@@ -47,7 +47,7 @@ _A Glimpse of the data_
 
 _Pre-Processing of the data_
 
-The images where transformed inthr following manner
+The images where transformed in the following manner
 
 | **Transformation**               |   **OutPut**                                     |
 | -------------------------------- |  ----------------------------------------------- |
@@ -65,31 +65,47 @@ The images where transformed inthr following manner
 
 **2. Model Development and Fine-tuning**
 
-![FineTuning](/README-images/efn_bNe.png)       ![FineTuning](/README-images/vgg_bNe.png)
+The following parameters namely: Batch size, Epochs, Dropout and Optimizer, of the model where fined, and the visualisation of the results are below
 
+The following values and parameters where chosen:
+
+_Optimizers_ - We will use only 5 optimizers to see which one works best, namely; 1. SGD,2. RMSprop,3. Adam,4. Adagrad,5. Adadelta. the best optimizer will be used in the New model
+_Number of epochs_ - We will also use only 4 epochs to choose the best performer namely; 1, 2, 5, 10.
+_Batch size_ - we will also use these batch sizes to choose the optimum batch size, namely; 8, 16.
+_Dropout_ - we will optimise the dropout of the model, values 0.5, 0.6, 0.7, 0.8, 0.9
+
+EfficientNetB7 - Batch size and Epochs
+![FineTuning](/README-images/efn_bNe.png)       
+
+VGG16 - Batch size and Epochs
+![FineTuning](/README-images/vgg_bNe.png)
+
+EfficientNetB7 - Dropout
 ![FineTuning](/README-images/efn_drop.png)
 
+VGG16 - Dropout
 ![FineTuning](/README-images/vgg_drop.png)
 
+EfficientNetB7 - Optimizer
 ![FineTuning](/README-images/efn_opt.png)
 
+VGG16 - Optimizer
 ![FineTuning](/README-images/vgg_opt.png)
 
-The Efficientnet model development and fine tuning
 
-in this notebook we will load and add our layers to the base model of the pre-trained EfficientnetB7 model, and fine tune the following parameters of the model:
-
-    Optimizers - We will use only 5 optimizers to see which one works best, namely; 1. SGD,2. RMSprop,3. Adam,4. Adagrad,5. Adadelta. the best optimizer will be used in the New model
-    Number of epochs - We will also use only 4 epochs to choose the best performer namely; 1, 2, 5, 10.
-    Batch size - we will also use these batch sizes to choose the optimum batch size, namely; 8, 16.
-    Dropout - we will optimise the dropout of the model, values 0.5, 0.6, 0.7, 0.8, 0.9
-
-    Section one: we will create common function and also create our base model, with the following initial parameters: Batch size 8, Optimizer Adam, Number of epochs 4, dropout value 0.5
 
 **3. Final Model Implementation and Results**
+
+This is the structure of the EfficientNetB7 model we implemented with optimum parameters, similarly with the VGG16 model.
 
 ![Model](/README-images/ModelEFN.png)
 
 ## Acknowledgements
 
+I appreciate and acknowledge the supervision of the project by Mr Kudakwashe MADZIMA, my Capstone-Project Lecture at Sol Plaatje University in 2021, and also my collaborater Miss Mishi MAKADE, as we designed and implemented the project together.
+
 ## Web Application
+
+will add the section of the Web App soon...
+
+Thank you.
