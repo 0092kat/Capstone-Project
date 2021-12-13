@@ -114,6 +114,12 @@ This is the structure of the EfficientNetB7 model we implemented with optimum pa
 
 ![Model](/README-images/ModelEFN.png)
 
+**4. Conclusions**
+
+Our aim of our project was to compare VGG16 and EfficientNetB7, in terms of accuracy, complexity, and training time & prediction time(how long it takes to predict), 
+
+And our study shows that EfficientNetB7 takes longer to predict than VGG16, and also its training Time takes longer, and the best model in terms of accuracy is EfficientNetB7 with 98.19% over VGG16 which is 92.30%, therefore for our web app we chose EfficientNetb7 even though it has a limitation of taking longer to predict other VGG16. 
+
 ## Acknowledgements
 
 I appreciate and acknowledge the supervision of the project by Mr Kudakwashe MADZIMA, my Capstone-Project Lecture at Sol Plaatje University in 2021, and also my collaborater Miss Mishi MAKADE, as we designed and implemented the project together.
